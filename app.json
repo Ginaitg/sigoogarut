@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "sigoogarut",
+    "slug": "sigoogarut",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA5fILN5vm8UkFma-5549iANfXjhzRL8-g"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.teguhalfaruqi.sigoogarut"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
